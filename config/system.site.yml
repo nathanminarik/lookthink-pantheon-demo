@@ -1,0 +1,14 @@
+uuid: 36fa5822-671b-4d7f-8563-c921e18ca152
+name: lookthink-pantheon-demo
+mail: nathanminarik@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
