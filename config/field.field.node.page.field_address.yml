@@ -1,0 +1,36 @@
+uuid: 8e0d8007-513a-48c2-9307-95d1fb3fb63d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.page
+  module:
+    - address
+id: node.page.field_address
+field_name: field_address
+entity_type: node
+bundle: page
+label: Address
+description: 'Enter an address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries:
+    FO: FO
+  fields:
+    administrativeArea: administrativeArea
+    locality: locality
+    dependentLocality: dependentLocality
+    postalCode: postalCode
+    sortingCode: sortingCode
+    addressLine1: addressLine1
+    addressLine2: addressLine2
+    organization: organization
+    givenName: givenName
+    additionalName: additionalName
+    familyName: familyName
+  langcode_override: ''
+field_type: address

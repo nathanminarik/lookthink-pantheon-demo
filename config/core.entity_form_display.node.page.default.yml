@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_address
     - node.type.page
   module:
+    - address
     - path
     - text
 _core:
@@ -30,6 +32,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_address:
+    weight: 32
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
   path:
     type: path
     weight: 30
