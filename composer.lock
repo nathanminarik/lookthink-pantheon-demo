@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3625d75db734981e3488415f8d4217eb",
+    "content-hash": "747e9c02ac285ff1634462ceb359c4e2",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1246,6 +1246,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Fixed twig locality": "https://www.drupal.org/files/issues/locality-name-data-missed-plainformater-2881391-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
