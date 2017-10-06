@@ -65,7 +65,8 @@ dependencies:
 
 test:
   override:
-    - run-behat
+    - cd backstop && ./run-backstop.sh
+    # - run-behat
   post:
     - terminus -n secrets:set "$TERMINUS_SITE.$TERMINUS_ENV" token "$GITHUB_TOKEN" --file='github-secrets.json' --clear --skip-if-empty
 
